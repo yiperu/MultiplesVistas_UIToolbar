@@ -21,6 +21,12 @@
 		CB6921E2180070D800C4B4C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6921C4180070D800C4B4C2 /* UIKit.framework */; };
 		CB6921EA180070D800C4B4C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6921E8180070D800C4B4C2 /* InfoPlist.strings */; };
 		CB6921EC180070D800C4B4C2 /* MultiplesVistas_UIToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6921EB180070D800C4B4C2 /* MultiplesVistas_UIToolbarTests.m */; };
+		CB6921F81800719800C4B4C2 /* PrimeroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6921F61800719800C4B4C2 /* PrimeroVC.m */; };
+		CB6921F91800719800C4B4C2 /* PrimeroVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6921F71800719800C4B4C2 /* PrimeroVC.xib */; };
+		CB6921FD180071B300C4B4C2 /* SegundoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6921FB180071B300C4B4C2 /* SegundoVC.m */; };
+		CB6921FE180071B300C4B4C2 /* SegundoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6921FC180071B300C4B4C2 /* SegundoVC.xib */; };
+		CB692202180071C500C4B4C2 /* TerceroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB692200180071C500C4B4C2 /* TerceroVC.m */; };
+		CB692203180071C500C4B4C2 /* TerceroVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB692201180071C500C4B4C2 /* TerceroVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		CB6921E7180070D800C4B4C2 /* MultiplesVistas_UIToolbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplesVistas_UIToolbarTests-Info.plist"; sourceTree = "<group>"; };
 		CB6921E9180070D800C4B4C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB6921EB180070D800C4B4C2 /* MultiplesVistas_UIToolbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplesVistas_UIToolbarTests.m; sourceTree = "<group>"; };
+		CB6921F51800719800C4B4C2 /* PrimeroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimeroVC.h; path = ../PrimeroVC.h; sourceTree = "<group>"; };
+		CB6921F61800719800C4B4C2 /* PrimeroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrimeroVC.m; path = ../PrimeroVC.m; sourceTree = "<group>"; };
+		CB6921F71800719800C4B4C2 /* PrimeroVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrimeroVC.xib; path = ../PrimeroVC.xib; sourceTree = "<group>"; };
+		CB6921FA180071B300C4B4C2 /* SegundoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SegundoVC.h; path = ../SegundoVC.h; sourceTree = "<group>"; };
+		CB6921FB180071B300C4B4C2 /* SegundoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SegundoVC.m; path = ../SegundoVC.m; sourceTree = "<group>"; };
+		CB6921FC180071B300C4B4C2 /* SegundoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SegundoVC.xib; path = ../SegundoVC.xib; sourceTree = "<group>"; };
+		CB6921FF180071C500C4B4C2 /* TerceroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TerceroVC.h; path = ../TerceroVC.h; sourceTree = "<group>"; };
+		CB692200180071C500C4B4C2 /* TerceroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TerceroVC.m; path = ../TerceroVC.m; sourceTree = "<group>"; };
+		CB692201180071C500C4B4C2 /* TerceroVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TerceroVC.xib; path = ../TerceroVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +132,15 @@
 				CB6921D2180070D800C4B4C2 /* Main.storyboard */,
 				CB6921D5180070D800C4B4C2 /* ViewController.h */,
 				CB6921D6180070D800C4B4C2 /* ViewController.m */,
+				CB6921F51800719800C4B4C2 /* PrimeroVC.h */,
+				CB6921F61800719800C4B4C2 /* PrimeroVC.m */,
+				CB6921F71800719800C4B4C2 /* PrimeroVC.xib */,
+				CB6921FA180071B300C4B4C2 /* SegundoVC.h */,
+				CB6921FB180071B300C4B4C2 /* SegundoVC.m */,
+				CB6921FC180071B300C4B4C2 /* SegundoVC.xib */,
+				CB6921FF180071C500C4B4C2 /* TerceroVC.h */,
+				CB692200180071C500C4B4C2 /* TerceroVC.m */,
+				CB692201180071C500C4B4C2 /* TerceroVC.xib */,
 				CB6921D8180070D800C4B4C2 /* Images.xcassets */,
 				CB6921C7180070D800C4B4C2 /* Supporting Files */,
 			);
@@ -229,6 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6921D9180070D800C4B4C2 /* Images.xcassets in Resources */,
+				CB6921FE180071B300C4B4C2 /* SegundoVC.xib in Resources */,
+				CB6921F91800719800C4B4C2 /* PrimeroVC.xib in Resources */,
+				CB692203180071C500C4B4C2 /* TerceroVC.xib in Resources */,
 				CB6921CB180070D800C4B4C2 /* InfoPlist.strings in Resources */,
 				CB6921D4180070D800C4B4C2 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6921D7180070D800C4B4C2 /* ViewController.m in Sources */,
+				CB692202180071C500C4B4C2 /* TerceroVC.m in Sources */,
+				CB6921F81800719800C4B4C2 /* PrimeroVC.m in Sources */,
+				CB6921FD180071B300C4B4C2 /* SegundoVC.m in Sources */,
 				CB6921D1180070D800C4B4C2 /* AppDelegate.m in Sources */,
 				CB6921CD180070D800C4B4C2 /* main.m in Sources */,
 			);
